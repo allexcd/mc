@@ -17,7 +17,7 @@ Copy the `menu` file from the project into `~/.config/mc/`
 - Renames the selected file using the filename copied in the clipboard
 - Preserves the selected file extension
 
-#### Using the custom actions
+### Using the custom actions
 
 1. Select a file with mc then press `F2` to open the menu options
 2. Press `7` to copy the filename
@@ -36,3 +36,5 @@ You'll have to scroll down until you find the video section
 5. If the `vlc` alias does not work, until finding a fix, replace `vlc` with `/Applications/VLC.app/Contents/MacOS/VLC`
 under `include/video` section
 
+## Other commands
+CTRL + O to switch between mc ui and subshell
