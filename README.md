@@ -1,8 +1,12 @@
 # Midnigt Commander Custom Configs
 
+## MC Installation
+1. `brew update`
+2. `brew install mc`
+
 ## User Menu Installation
 
-Copy the project `menu` file into `~/.config/mc/`
+Copy the `menu` file from the project into `~/.config/mc/`
 
 ### Custom actions added to User Menu
 
