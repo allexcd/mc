@@ -17,6 +17,14 @@ Copy the `menu` file from the project into `~/.config/mc/`
 - Renames the selected file using the filename copied in the clipboard
 - Preserves the selected file extension
 
+#### Using the custom actions
+
+1. Select a file with mc then press `F2` to open the menu options
+2. Press `7` to copy the filename
+3. Select the file to be renamed within mc
+4. Press `F2` to open the menu options
+5. Press `8` to rename the file
+
 ## Open video files with VLC
 
 1. Create a vlc alias in your `~/.bash_profile`: `alias vlc='/Applications/VLC.app/Contents/MacOS/VLC'`
