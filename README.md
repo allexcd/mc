@@ -36,5 +36,8 @@ You'll have to scroll down until you find the video section
 5. If the `vlc` alias does not work, until finding a fix, replace `vlc` with `/Applications/VLC.app/Contents/MacOS/VLC`
 under `include/video` section
 
+## Specify special keyboard maps:
+1. `ln -s ~/.inputrc ~/.local/share/mc/inputrc`
+
 ## Other commands
 CTRL + O to switch between mc ui and subshell
