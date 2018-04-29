@@ -2,7 +2,7 @@
 
 ## User Menu Installation
 
-Copy the `menu` file into "Users/your-user-name/.config/mc/"
+Copy the project `menu` file into `~/.config/mc/`
 
 ### Custom actions added to User Menu
 
@@ -13,7 +13,7 @@ Copy the `menu` file into "Users/your-user-name/.config/mc/"
 - Renames the selected file using the filename copied in the clipboard
 - Preserves the selected file extension
 
-### Open video files with VLC
+## Open video files with VLC
 
 1. Create a vlc alias in your `~/.bash_profile`: `alias vlc='/Applications/VLC.app/Contents/MacOS/VLC'`
 2. Make a symlink to get access to env vars and aliases in mc subshell: `ln -s ~/.bash_profile ~/.local/share/mc/bashrc`
